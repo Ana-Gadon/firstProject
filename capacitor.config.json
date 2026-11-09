@@ -1,0 +1,15 @@
+{
+  "appId": "com.firstProject.app",
+  "appName": "firstproject",
+  "webDir": "www.firstProject",
+
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "backgroundColor": "#ffffff",
+      "androidScaleType": "FIT_CENTER",
+      "showSpinner": true
+    }
+
+}
+}

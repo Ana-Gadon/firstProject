@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sibuyan, Romblon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+ <style>
+  
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+      background: #f0f5f9;
+      color: #1e2b3a;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .site-card {
+      background: #ffffff;
+      border-radius: 24px;
+      box-shadow: 0 12px 30px rgba(0, 30, 50, 0.1);
+      overflow: hidden;
+      border: 1px solid #d9e6ef;
+    }
+
+    .image {
+      width: 100%;
+      height: auto;
+      display: block;
+      max-height: 360px;
+      object-fit: cover;
+      object-position: center 30%;
+    }
+
+    .content {
+      padding: 28px 24px 24px;
+    }
+
+    .title-section {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 6px;
+    }
+
+    .title-section h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #0a3146;
+      letter-spacing: -0.5px;
+      line-height: 1.2;
+    }
+
+    .location-line {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1rem;
+      color: #128cd8;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #d9e6ef;
+    }
+
+    .location-line i {
+      color: #1b6b8f;
+    }
+
+    .info-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .info-row i {
+      font-size: 1.4rem;
+      color: #1b6b8f;
+      width: 28px;
+      text-align: center;
+      margin-top: 3px;
+      flex-shrink: 0;
+    }
+
+    .info-text {
+      font-size: 1rem;
+      color: #1c3c4f;
+    }
+
+    .info-text strong {
+      color: #0a3146;
+      font-weight: 600;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.78rem;
+      color: #5b7e93;
+      padding-top: 18px;
+      margin-top: 8px;
+      border-top: 1px dashed #cbe1ef;
+    }
+
+    .footer i {
+      color: #1b6b8f;
+      margin-right: 5px;
+    }
+
+</style>
+</head>
+<body>
+
+<nav>
+    <button class="burger" onclick="toggleMenu()" aria-label="Toggle menu">
+        <span class="burger-icon">&#9776;</span>
+        <img src="media/logo.png" width="50" height="50" alt="San Fernando Romblon Logo">
+        <span>San Fernando, Romblon</span>
+    </button>
+</nav>
+    <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+
+    <div class="nav-links" id="navLinks">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+
+      <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("open");
+            document.getElementById("overlay").classList.toggle("open");
+        }
+    </script>
+  <div class="container">
+    <div class="site-card">
+
+        <img 
+        class="image"
+        src="media/sibuyan.jpg" 
+        alt="Sibuyan Island, Romblon — lush mountains and forest"
+        loading="lazy"
+        >
+
+      <div class="content">
+
+        <div class="title-section">
+          <h1>San Fernando, Sibuyan</h1>
+        </div>
+
+   
+        <div class="location-line">
+          <i class="fas fa-map-pin"></i> Romblon, Philippines
+        </div>
+
+        <div class="info-row">
+          <i class="fas fa-map"></i>
+          <div class="info-text">
+            <strong>196.87 km²</strong> the largest municipality in Romblon Province by land area.
+          </div>
+        </div>
+
+        <div class="info-row">
+          <i class="fas fa-users"></i>
+          <div class="info-text">
+            Home to about <strong>24,171</strong> distributed across 12 barangays.
+          </div>
+        </div>
+
+       
+        <div class="footer">
+          <span><i class="fas fa-map"></i> Romblon</span>
+        </div>
+
+      </div> 
+    </div> 
+  </div>
+
+</body>
+</html>
+

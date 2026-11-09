@@ -1,0 +1,54 @@
+{
+  "officials": [
+    {
+      "name": "Christian \" Pong \" U. Gervacio",
+      "position": "Mayor",
+      "image": "media/logo.png"
+    },
+    {
+      "name": "Renz Repil",
+      "position": "Vice Mayor",
+      "image": "media/logo.png"
+    },
+    {
+      "name": "Daxie Rios",
+      "position": "Sangguniang Bayan Member",
+      "image": "media/sibuyan.jpg"
+    },
+    {
+      "name": "Jezrel Aquino",
+      "position": "Sangguniang Bayan Member",
+      "image": "media/jezrel.jpg"
+    },
+    {
+      "name": "Renren Baranda",
+      "position": "Sangguniang Bayan Member",
+      "image": "media/renren.jpg"
+    },
+    {
+      "name": "Seamight Renion",
+      "position": "Sangguniang Bayan Member",
+      "image": "media/seamight.jpg"
+    },
+    {
+      "name": "Titing Rios",
+      "position": "Sangguniang Bayan Member",
+      "image": "media/titing.jpg"
+    },
+    {
+      "name": "Sir Riano",
+      "position": "Sangguniang Bayan Member",
+      "image": "media/riano.jpg"
+    },
+    {
+      "name": "Marites Clavel",
+      "position": "Sangguniang Bayan Member",
+      "image": "media/marites.jpg"
+    },
+    {
+      "name": "Dante Marin",
+      "position": "Sangguniang Bayan Member",
+      "image": "media/dante.jpg"
+    }
+  ]
+}
